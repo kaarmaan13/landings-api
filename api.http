@@ -1,0 +1,9 @@
+### Provar requests
+GET http://localhost:1234
+
+### Recuperar todas las landings
+GET http://localhost:1234/landings
+
+### Recuperar una landing por hash
+GET http://localhost:1234/landings/3c974163ecd3b540973372efe87ce2afeb267bd2
+

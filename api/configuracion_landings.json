@@ -1,0 +1,121 @@
+[
+  {
+    "hash": "3c974163ecd3b540973372efe87ce2afeb267bd2",
+    "url": "segurosdeviajes.mapfre.es",
+    "etiquetas": {
+      "declarativa": {
+        "vencimiento": "none",
+        "filtro_edad": "no",
+        "version_politica_privacidad": "Mapfre España V2",
+        "deduplicateWindow": "15d",
+        "deduplicateLimit": "316",
+        "scoring_IVR": "True",
+        "Scoring_priority": "Low"
+      },
+      "conversion": {
+        "c_var_3": "formulario",
+        "c_var_4": "viajes",
+        "c_var_1": "No cliente"
+      },
+      "visita": {
+        "v_var_2": "viajes",
+        "v_var_7": "no",
+        "v_var_12": "Landing-viajes",
+        "v_var_13": "https://segurosdeviajes.mapfre.es/"
+      },
+      "externas": [
+        {
+          "id": 1263,
+          "option": "1",
+          "comments": "Scoring_IVR"
+        },
+        {
+          "id": 1264,
+          "option": "3",
+          "comments": "Scoring_priority"
+        },
+        {
+          "id": 998,
+          "option": "2",
+          "comments": "Origen Lead"
+        }
+      ],
+      "venta": {
+        "1": "Viajes"
+      }
+    },
+    "horario": {
+      "inicio": "hora_inicio",
+      "fin": "hora_fin"
+    },
+    "dinamizacion": {
+      "parametro": "funcion",
+      "parametro2": "funcion"
+    },
+    "parametrizacion": {
+      "parametro": "funcion",
+      "parametro2": "funcion"
+    },
+    "gracias": {
+      "htmlModalHorario": "Gracias por confiar en MAPFRE",
+      "htmlModalFueraHorario": "Estamos fuera de horario"
+    }
+  },
+  {
+    "hash": "5f58a749cafa0ba297a59892748ae879f3eb1f7f",
+    "url": "seguroparamascotas.mapfre.es",
+    "etiquetas": {
+      "declarativa": {
+        "vencimiento": "none",
+        "filtro_edad": "no",
+        "version_politica_privacidad": "Mapfre España V2",
+        "deduplicateWindow": "15d",
+        "deduplicateLimit": "316",
+        "scoring_IVR": "True",
+        "Scoring_priority": "Low"
+      },
+      "conversion": {
+        "c_var_3": "formulario",
+        "c_var_4": "mascotas",
+        "c_var_1": "No cliente"
+      },
+      "visita": {
+        "v_var_2": "mascotas",
+        "v_var_7": "no",
+        "v_var_12": "Landing-mascotas",
+        "v_var_13": "seguroparamascotas.mapfre.es"
+      },
+      "externas": [
+        {
+          "id": 1263,
+          "option": "1",
+          "comments": "Scoring_IVR"
+        },
+        {
+          "id": 1264,
+          "option": "2",
+          "comments": "Scoring_priority"
+        }
+      ],
+      "venta": {
+        "1": "Mascotas"
+      }
+    },
+    "horario": {
+      "inicio": "hora_inicio",
+      "fin": "hora_fin"
+    },
+    "dinamizacion": {
+      "parametro": "funcion",
+      "parametro2": "funcion"
+    },
+    "parametrizacion": {
+      "parametro": "funcion",
+      "parametro2": "funcion"
+    },
+    "gracias": {
+      "htmlModalHorario": "Gracias por confiar en MAPFRE",
+      "htmlModalFueraHorario": "Estamos fuera de horario"
+    }
+  }
+]
