@@ -7,3 +7,52 @@ GET http://localhost:1234/landings
 ### Recuperar una landing por hash
 GET http://localhost:1234/landings/3c974163ecd3b540973372efe87ce2afeb267bd2
 
+### Crear una nueva Landing
+POST http://localhost:1234/landings
+Content-Type:  application/json
+
+{
+  "url": "segurosdenuevos.mapfre.es",
+  "etiquetas": {
+    "declarativa": {
+      "vencimiento": "none",
+      "filtro_edad": "no",
+      "version_politica_privacidad": "Mapfre España V2",
+      "deduplicateWindow": "otro",
+      "deduplicateLimit": "otro",
+      "scoring_IVR": "False",
+      "Scoring_priority": "High"
+    },
+    "conversion": {
+      "c_var_3": "formulario",
+      "c_var_4": "nuevos",
+      "c_var_1": "No cliente"
+    },
+    "visita": {
+      "v_var_2": "nuevos",
+      "v_var_7": "no",
+      "v_var_12": "Landing-nuevos",
+      "v_var_13": "https://segurosdenuevos.mapfre.es/"
+    },
+    "externas": [
+      {
+        "id": 1263,
+        "option": "1",
+        "comments": "Scoring_IVR"
+      },
+      {
+        "id": 1264,
+        "option": "3",
+        "comments": "Scoring_priority"
+      },
+      {
+        "id": 998,
+        "option": "2",
+        "comments": "Origen Lead"
+      }
+    ],
+    "venta": {
+      "1": "Viajes"
+    }
+  }
+}
